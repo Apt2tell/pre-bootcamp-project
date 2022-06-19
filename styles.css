@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #container{
     height: 56px;
     padding: 0 16px;
@@ -74,8 +78,11 @@
 }
 
 #container-video {
-    margin: 20px 5px 5px 40px;
-    width: 932px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
     height: 434px;
     background: #eeeeee;
 }
@@ -85,4 +92,8 @@
     padding: 0 0 0 50px;
     width: 694px;
     height: 400px;
+}
+
+#preview-video {
+    margin: 20px 0 0 20px;
 }
