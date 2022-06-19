@@ -72,3 +72,17 @@
     height: auto;
     padding: 8px;
 }
+
+#container-video {
+    margin: 20px 5px 5px 40px;
+    width: 932px;
+    height: 434px;
+    background: #eeeeee;
+}
+
+#video-size {
+    margin: 15px 0 0 50px;
+    padding: 0 0 0 50px;
+    width: 694px;
+    height: 400px;
+}
